@@ -1,0 +1,1026 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"y",
+				"y_axel"
+			],
+			[
+				"pri",
+				"printf"
+			],
+			[
+				"pritn",
+				"println"
+			],
+			[
+				"x",
+				"x_axel"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"data",
+				"data_str"
+			],
+			[
+				"biggets",
+				"biggest_title"
+			],
+			[
+				"bigget",
+				"biggest_title"
+			],
+			[
+				"biggest",
+				"biggest_title"
+			],
+			[
+				"bigge",
+				"biggest_num"
+			],
+			[
+				"total",
+				"total_duration"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"loo",
+				"loops"
+			],
+			[
+				"json",
+				"json_a"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"in",
+				"inData"
+			],
+			[
+				"state",
+				"stateStanding"
+			],
+			[
+				"start",
+				"startUpSequence"
+			],
+			[
+				"set",
+				"setStripColor"
+			],
+			[
+				"LED",
+				"LED_COUNT"
+			],
+			[
+				"S",
+				"SHORTNAMES"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"A",
+				"APIController"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"token",
+				"token_type"
+			],
+			[
+				"access",
+				"access_token"
+			],
+			[
+				"Auth",
+				"AuthenticationController"
+			],
+			[
+				"show",
+				"showIndex"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"old",
+				"oldML"
+			],
+			[
+				"path",
+				"pathStripped"
+			],
+			[
+				"arg",
+				"margin-left"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margion",
+				"margin-bottom"
+			],
+			[
+				"api",
+				"api_pass"
+			],
+			[
+				"subs",
+				"subscription_number"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"sub",
+				"subscriber"
+			],
+			[
+				"zip",
+				"zip_code"
+			],
+			[
+				"name",
+				"nameJson"
+			],
+			[
+				"departe",
+				"department"
+			],
+			[
+				"child",
+				"child_id"
+			],
+			[
+				"Absen",
+				"absences"
+			],
+			[
+				"abse",
+				"absence"
+			],
+			[
+				"absen",
+				"absence"
+			],
+			[
+				"from",
+				"fromDate"
+			],
+			[
+				"inserte",
+				"inserted_schools"
+			],
+			[
+				"depa",
+				"departmentId"
+			],
+			[
+				"sch",
+				"schoolId"
+			],
+			[
+				"ab",
+				"Absences"
+			],
+			[
+				"chid",
+				"child"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"Child",
+				"ChildDepartment"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"rad",
+				"rand_food"
+			],
+			[
+				"rand",
+				"rand_food"
+			],
+			[
+				"foo",
+				"foodList"
+			],
+			[
+				"get",
+				"getDate"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"close",
+				"closeMenu"
+			],
+			[
+				"open",
+				"openMenu"
+			],
+			[
+				"clos",
+				"closeMenu"
+			],
+			[
+				"VI",
+				"ViewModule"
+			],
+			[
+				"fave",
+				"faveActive"
+			],
+			[
+				"fav",
+				"favoriteActive"
+			],
+			[
+				"favorite",
+				"favoriteActive"
+			],
+			[
+				"resat",
+				"restaurant_id"
+			],
+			[
+				"sort",
+				"sortByRestaurantName"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"init",
+				"initiateMyFavorites"
+			],
+			[
+				"Fav",
+				"FavoriteModule"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"utf8",
+				"utf8_encode"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"listst",
+				"list-style"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"new",
+				"newName"
+			],
+			[
+				"sear",
+				"search_str"
+			],
+			[
+				"searc",
+				"searchRes"
+			],
+			[
+				"search",
+				"search_str"
+			],
+			[
+				"ext",
+				"ext_restaurant"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"height",
+				"heightContent"
+			],
+			[
+				"Main",
+				"MainMenuModule"
+			],
+			[
+				"Data",
+				"DataLoaderModule"
+			],
+			[
+				"Day",
+				"DayMenuModule"
+			],
+			[
+				"scroll",
+				"scrollWWD"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"Fro",
+				"Form"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/albin/Development/InteraktionDesign_courses/app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"set c",
+				"Set Syntax: C"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"conve",
+				"Convert Case: Upper Case"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"set ard",
+				"Set Syntax: Arduino"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"indent tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"set pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"min",
+				"Minify Javascript to file"
+			],
+			[
+				"mni",
+				"Minify Javascript to file"
+			],
+			[
+				"miini",
+				"Minify Javascript"
+			],
+			[
+				"newf ie",
+				"File: New File Relative to Current View"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"new file",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"redin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set bla",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"set blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set",
+				"Set Syntax: LESS"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 350.0,
+		"history":
+		[
+			"view.insert(none, 0, \"Hello, World!\")",
+			"view.insert(null, 0, \"Hello, World!\")",
+			"view.insert(edit, 0, \"Hello, World!\")",
+			"print 'hej'",
+			"print ''+snus ",
+			"print ''+snus",
+			"print snus;",
+			"print snus",
+			"snus = kalleballe*2",
+			"kalleballe = 12",
+			"view.run_command(\"hello world\")",
+			"view.run_command(\"example\")",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/albin/Development/InteraktionDesign_courses",
+		"/Users/albin/Development/InteraktionDesign_courses/app",
+		"/Users/albin/Development/InteraktionDesign_courses/app/Http"
+	],
+	"file_history":
+	[
+		"/Users/albin/Development/InteraktionDesign_courses/app/Providers/RouteServiceProvider.php",
+		"/Users/albin/Development/InteraktionDesign_courses/app/Http/routes.php",
+		"/Users/albin/Development/InteraktionDesign_courses/public/robots.txt",
+		"/Users/albin/Development/InteraktionDesign_courses/readme.md",
+		"/Users/albin/Dropbox/Backup/MAMP 2014-02-18/kristall/vendor/doctrine/common/tests/Doctrine/Tests/Common/Proxy/SleepClass.php",
+		"/Users/albin/Development/Emergent Systems/Lab1/Termites_olika.nlogo",
+		"/Users/albin/Development/Emergent Systems/Lab1/Termites.nlogo",
+		"/Users/albin/Downloads/Finder Icon by Arvid Bräne/Read Me - For Private Use Only.md",
+		"/Users/albin/Development/Emergent Systems/Lab1/README",
+		"/Users/albin/Dropbox/CS2024/asm-studio/production/12-html-pages/index_backup.html",
+		"/Users/albin/Dropbox/CS2024/asm-studio/production/12-html-pages/index.html",
+		"/Users/albin/Desktop/t.py",
+		"/Users/albin/Dropbox/CS2024/asm-studio/production/12-html-pages/index.mini.html",
+		"/Users/albin/Dropbox/CS2024/asm-studio/production/12-html-pages/privacy-policy.html",
+		"/Users/albin/Dropbox/CS2024/asm-studio/production/12-html-pages/css/_cssmaster.css",
+		"/Users/albin/Development/lucy-light/python-shield/setup_mac.py",
+		"/Users/albin/Google Drive/Universitetsstudier/NTU/DM3005 - Interactive Devices/other assignments/albinhubsch.tumblr.com",
+		"/Users/albin/Development/lucy-light/python-shield/Moves.py",
+		"/Users/albin/Development/lucy-light/python-shield/net-shield.py",
+		"/Users/albin/Development/lucy-light/python-shield/DataProcessor.py",
+		"/Users/albin/Development/lucy-light/php-mover/db2.txt",
+		"/Users/albin/Development/lucy-light/php-mover/index.php",
+		"/Users/albin/Development/lucy-light/php-mover/db.txt",
+		"/Users/albin/Development/lucy-light/python-shield/Comm.py",
+		"/Users/albin/Development/lucy-light/python-shield/t.py",
+		"/Users/albin/Development/lucy-light/lucy_light_runner/lucy_light_runner.ino",
+		"/Users/albin/Development/lucy-light/arduino-runner/lucy_light_runner.ino",
+		"/Users/albin/Development/lucy-light/arduino-runner/lucy_light_runner/lucy_light_runner.ino",
+		"/Users/albin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/albin/Development/lucy-light/arduino-runner/arduino-runner.ino",
+		"/Users/albin/Development/lucy-light/README.md",
+		"/Users/albin/Development/lucy-light/python-shield/.access_token",
+		"/Applications/MAMP/htdocs/lucy-light/app/controllers/APIController.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/config/access_token.txt",
+		"/Applications/MAMP/htdocs/lucy-light/app/controllers/UserController.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/models/User.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/views/lucy_auth/start.blade.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/database/migrations/2014_09_11_021236_create_users_table.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/database/seeds/DatabaseSeeder.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/database/seeds/UserTableSeed",
+		"/Applications/MAMP/htdocs/lucy-light/app/models/Moves.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/views/authentication/start.blade.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/config/database.php",
+		"/Applications/MAMP/htdocs/lucy-light/.gitignore",
+		"/Applications/MAMP/htdocs/lucy-light/Procfile",
+		"/Applications/MAMP/htdocs/lucy-light/vendor/patchwork/utf8/class/Normalizer.php",
+		"/Applications/MAMP/htdocs/lucy-light/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/NotEqual.php",
+		"/Applications/MAMP/htdocs/lucy-light/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/New.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/controllers/HomeController.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/views/home",
+		"/Applications/MAMP/htdocs/lucy-light/app/views/hello.php",
+		"/Applications/MAMP/htdocs/lucy-light/app/controllers/AuthenticationController.php",
+		"/Users/albin/Library/Application Support/Sublime Text 3/Packages/CodeTL2/CodeTL2.sublime-settings",
+		"/Applications/MAMP/htdocs/lucy-light/app/config/app.php",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/js/base.min.js",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/js/jquery-1.10.2.min.js",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/js/fastclick.js",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/js/fastclick.min.js",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/app/views/whatwedo.blade.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/app/views/referencedesign.blade.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/style/less/classes.less",
+		"/Applications/MAMP/htdocs/instafood/public/style/less/base.less",
+		"/Applications/MAMP/htdocs/limesaudio/__timelogs/Albin Hubsch/timelog.json",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/style/less/footer.less",
+		"/Applications/MAMP/htdocs/limesaudio/möte_25apr_2014.txt",
+		"/Applications/MAMP/htdocs/limesaudio/möte_25apr_2014.txt",
+		"/Users/albin/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/site/base_tag/frameset_with_base_tag.html",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/js/base.js",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/app/views/incl/nav.blade.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/NotEqual.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/New.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/monolog/monolog/tests/Monolog/Handler/NewRelicHandlerTest.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/CacheWarmer/WarmableInterface.php",
+		"/Users/albin/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Applications/MAMP/htdocs/limesaudio/.gitattributes",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/.htaccess",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/packages/simpletest.org/test/package/here_overview.xml",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/symfony/security/Symfony/Component/Security/Http/Event/InteractiveLoginEvent.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/app/controllers/InterfaceController.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/public/index.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/MockArraySessionStorage.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/laravel/framework/src/Illuminate/Database/Eloquent/MassAssignmentException.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/app/config/mail.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/app/start/local.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/psr/log/Psr/Log/LoggerAwareInterface.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/swiftmailer/swiftmailer/test-suite/lib/yaymock/yay_convenience.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilterIterator.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/symfony/finder/Symfony/Component/Finder/Tests/Iterator/FilterIteratorTest.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/app/filters.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+		"/Applications/MAMP/htdocs/afi3_advertising/readme.md",
+		"/Applications/MAMP/htdocs/afi3_advertising/app/controllers/HomeController.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesFrame/app/views/about.blade.php",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/style/less/responsive.less",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/style/less/base.less",
+		"/Applications/MAMP/htdocs/limesaudio.sublime-project",
+		"/Applications/MAMP/htdocs/limesaudio/.gitignore",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/htaccess",
+		"/Applications/MAMP/htdocs/limesaudio.sublime-workspace",
+		"/Applications/MAMP/htdocs/limesaudio/limesaudio.com/js/Reproduktionsduggaresultat2014.xls",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/database/migrations/2014_04_22_143930_create_apiusers_table.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/database/seeds/ApiUserSeeder.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/views/getApikey.blade.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/controllers/SubscriberController.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/database/seeds/UserTableSeeder.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/models/ApiUser.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/www/afi3/index.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/app/database/seeds/DatabaseSeeder.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/afi3_subscriber_frame/bootstrap/paths.php",
+		"/Applications/MAMP/htdocs/LaravelMiniprojekt/app/config/database.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/controllers/ApiController.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/controllers/SubscriberController.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/models/Subscriber.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/views/home.blade.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/views/layout.blade.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/public/.htaccess",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/filters.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/routes.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/models/User.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/views/myProfile.blade.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/views/login.blade.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/views/registration.blade.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/database/migrations/2014_04_21_142922_create_tbl_subscribers.php",
+		"/Applications/MAMP/htdocs/afi3_subscriber/app/controllers/HomeController.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"min",
+			"max",
+			"l",
+			"fortsätt",
+			"list1",
+			"list2",
+			"#",
+			"flex-next",
+			".flex-direction-nav a",
+			"#subbody .flex-direction-nav a, .light-menu #subbody .nvrtrotating .flex-direction-nav a",
+			"./Flip Fullscreen Slider   Just another Novaro Wordpress Demo Sites site_files/interfeisstudio-220x104.png",
+			"Flip Fullscreen Slider   Just another Novaro Wordpress Demo Sites site_files/novarostudio-220x104.png",
+			"http://wordpress.novarostudio.com/flip/#",
+			"28",
+			"pricing",
+			"POJECTS",
+			"stateStanding",
+			"int ",
+			"MAXBRIGHTNESS",
+			"person_a",
+			"10",
+			"100",
+			"state",
+			"sensor",
+			"white",
+			"next_val",
+			"ne",
+			"format",
+			"20",
+			"69",
+			"14",
+			"40",
+			"fastclick",
+			"initTech",
+			"0s",
+			"nav",
+			"div",
+			"20",
+			"button",
+			".roboto(13px) !important;",
+			"#ABOUT",
+			"$.",
+			"90deg",
+			"getBasicResponse",
+			"firstname",
+			"snuva",
+			"hosta",
+			"diarr",
+			"[\n",
+			"ödem",
+			"feber",
+			".*\\n",
+			"aarskogs syndrom\nabrikosoffs tumör\nakne\nadd\nadhd\naddisons sjukdom\naddison-schilders syndrom\nadipositas, fetma\nafasi, dysfasi\nafte\naids\nakromegali\nalbert-schönbergs sjukdom\nallergi\nalports syndrom\nals\nalkoholism\nalzheimers sjukdom\nanafylaxi\nanemi\nangelmans syndrom\nanorexia nervosa\nartäremboli\narterostenos\nashermans syndrom\naspergers_syndrom|aspergers syndrom\nastma\nayerzas sjukdom\nbaastrups syndrom\nbakwin-kridas syndrom\nbalints syndrom\nbangs sjukdom\nbarlows sjukdom\nbarnsängsfeber\nbasedows sjukdom\nbechterews sjukdom\nbehçets syndrom\nbenhinneinflammation\nbergers sjukdom\nansiktsförlamning|bells pares\nbiid\nbihåleinflammation\nbipolärt syndrom\nblindtarmsinflammation\nblodförgiftning\nblödarsjuka\nborderline\nborrelia\nbowens sjukdom\nbpd\nbrills sjukdom\nbronkit\nbråck\nbukhinneinflammation\nbulimia nervosa\nbuergers sjukdom\nbältros\nböldpest\ncancer\ncapgras syndrom\nchagas sjukdom\ncharcot-marie-tooths sjukdom\nchurg-strauss syndrom\nclaudicatio intermittens, fönstertittarsjuka \ncogans syndrom\ncoopers sjukdom\ncreutzfeldt-jakobs sjukdom\ncrohns sjukdom\ncushings sjukdom\ncystisk fibros\ndanssjuka\ndenguefeber\ndepression\ndiabetes\ndiamond-blackfans syndrom\ndissekerande aortaaneurysm\ndivertikulit\nduchennes muskeldystrofi\ndykarsjukan\ndyskalkyli\ndysmeli\ndysmorfofobi\ndystymi\nedwards syndrom\nehlers danlos syndrom\neksem\nelefantsjukan\nelöverkänslighet\nendoftalmit\nepilepsi\nfabrys sjukdom\nfalsk krupp\nfamiljär medelhavsfeber\nfaryngit\nfavism\nfeber\nfemte sjukan elerythema infectiosum\nfetma, adipositas\nfibrom\nfibros\nfibrosarkom\nfibrositis\nfilariasjuka\nfjärde sjukdomen\nflebit\nflykten (sjukdom)|flykten\nfläcktandsjuka\nfläcktyfus\nfotsvamp\nframboesi\nfriedreichs sjukdom\nfröhlichs syndrom\nftiriasis\nfulslag\nfxtas\nfågelinfluensa\nföllings sjukdom\nförhudsinflammation\nförkylning\ngallblåseinflammation\ngallvägsdyskinesi\ngangrän, kallbrand\ngapsjuka\ngargoylism\ngasbrand\ngastrit\ngastro-enterit\ngauchers sjukdom\ngee-herters sjukdom\ngelbgjutarfeber\ngiftstruma\ngikt\ngilbert-meulengrachts syndrom\ngilberts syndrom\ngingivit\nglassliparsjuka\nglaukom\nglimo\nglomerulonefrit\nglossit\nglottisödem\ngnejs (hudåkomma)|gnejs\ngonit\ngonorré\ngrå starr\ngrön starr\nguillain-barrés syndrom\ngula febern\ngulsot\nhaemoloacria\nhallucinogen persisting perception disorder\nhemokromatos\nhench-assmans syndrom\nhepatit|hepatit a\nhepatit|hepatit b\nhepatit|hepatit c\nherpes\nherpes b\nherpes simplex\nhiv\nhjärnhinneinflammation\nhudtuberkulos\nhuntinel-picks syndrom\nhuvudvärk\nhydrocefalus\nhypersomni\nhyperthyreos\nhypertoni \nhypertrikos\nhypokondri\nhypoglykemi\niga-nefrit\nimerslund-gräsbecks syndrom\ninfluensa\nirit\nsömnlöshet|insomnia\njohanssons sjukdom\nkahlers sjukdom\nkallbrand, gangrän\nkaries\nkawasakis sjukdom\nkemiskt beroende \nkeratomalaci\nkikhosta\nklamydiainfektion\nklinefelters syndrom\nkol\nkolera\nkondylom\nkorsakoffs sjukdom\nkretinism\nkwashiorkor\nkärlkramp\nkörtelfeber\nkrabbes sjukdom\nlaurence-moon-biedls syndrom\nledgångsreumatism\nlegionärssjuka\nlepra\nlymphogranuloma venereum (lgv)\nlungemboli\nlungemfysem\nlunginflammation\nlungkatarr\nlungpest\nlungsot\nlungsäcksinflammation\nlungödem\nlångt qt-syndrom\nmagkatarr\nmagsjuka\nmalaria\nmani_(beteende)|mani\nmarfans syndrom\nmarie-strümpells sjukdom\nménières sjukdom\nmikulicz sjukdom\nmiller-fischer\nminimal change disease\nmjuk schanker\nmjältbrand\nmongolism\nmortons sjukdom\nmrkh\nmultipel sklerosmultipel skleros|ms)\nmyokardit\nmyxom\nmyxödem\nmünchhausensyndrom\nmässling\nnageltrång\nnarcissistisk personlighetsstörning\nnarkolepsi\nnefrit\nnicolas-favres sjukdom\nniemann-picks sjukdom\nnikotinism\nnjursten\nnjursvikt\nosgood-schlatters sjukdom\noslers sjukdom\nondines syndrom\nosteogenesis imperfecta  \nortorexi\nparanoia\npanikångest\npataus syndrom\npapegojsjuka\nparkinsons sjukdom\nparotit\nparry-rombergs syndrom\npectus carinatum\npectus excavatum\npellagra\npest\npicks sjukdom\npick-herxheimers sjukdom\npick-wernickes syndrom\nplummer-winsons syndrom\npoland-möbius syndrom\npolio\npollenallergi\npolyradikulit\npolykondrit \nposadas-wernickes sjukdom\npozzis syndrom\nprader-willis syndrom\npreisers sjukdom\nproteus syndrom\nprimär aldosteronism \nprinzmetal-massumis syndrom\nprionsjukdomar \nprogeri\npsoriasis\npyle-cohns syndrom\npyles sjukdom\npåssjuka\nrabies\nrakitis\nrastlösa ben\nraynauds sjukdom\nneurofibromatos | recklinghausens sjukdom\nregnbågshinneinflammation\nretinitis pigmentosa\nreumatisk feber\nriedels struma\nrop\nryggskott\nröda hund\nsalmonella\nsars\nscharlakansfeber\nschlatters sjukdom\nscheuermanns sjukdom\nschilders sjukdom\nschilder-foix sjukdom\nschilder-stengels syndrom\nschizofreni\nsensorisk hyperreaktivitet\nsézarys syndrom\nsimmonds sjukdom\nsjögrens syndrom  \nskabb\nsklerodermi\nskleros\nskolios\nskäggsvamp\nskörbjugg\nslaganfall\nsmittkoppor\nsnäckfeber\nsorkfeber\nspanska sjukan\nspleen\nstarr\nstelkramp\nstendhal syndrom\nsternbergs sjukdom\nstevens-johnson syndrom\nstills sjukdom\nstruma\nstrupkatarr\nsturge-webers sjukdom\nsvampinfektion\nsvininfluensa\nsyfilis\ntakayashus sjukdom\ntarmkatarr\ntarmvred\ntay-sachs sjukdom\ntbe\ntennisarmbåge\ntetani\nthiemanns sjukdom\nthomsens sjukdom\ntinnitus\ntooths sjukdom\ntoxiskt chocksyndrom, tss\ntreacher collins syndrom\ntrichomonas\ntromboembolism\ntromboflebit\ntuberkulos, tbc\nturners syndrom\ntvångssyndrom\ntyfus\nuhls sjukdom\nulcerös kolit\nulcus cruris\nulcus pepticum\nulcus simplex\nulcus ventriculi\nunverricht-lundborgs sjukdom\nurinvägsinfektion\nvaquez-oslers sjukdom\nvattkoppor\nvinterkräksjuka\nvirus\nwaterhouse-friedrichens syndrom\nwdha-syndrom\nwebers syndrom\nweber-christians sjukdom\nweils sjukdom\nwelanders muskeldystrofi\nwernicke-korsakoffs syndrom\nwest nile fever\nwillebrands sjukdom\nwilliams syndrom\nwilsons sjukdom\nxeroftalmi\nyrsel\nzellwegers syndrom\nzollinger-ellisons syndrom\nåderbråck\nåderförkalkning\näkta krubb\nätstörning utan närmare specifikation\nöroninflammation\nödem",
+			"allergi",
+			"aarskogs",
+			"]]",
+			"[[",
+			"Pojknamn",
+			"id\": 1,",
+			"en_from",
+			"''",
+			"None",
+			"Chil",
+			"Child",
+			"db",
+			"finalTmpHTML",
+			"content",
+			"0",
+			"clearCanvas",
+			"menu-sprite",
+			"currentView",
+			"oldName",
+			"-->\n",
+			"67",
+			"		\n",
+			"section",
+			"h2",
+			"line-height: 150%;",
+			"line-height: 130%;",
+			"line-height",
+			"1",
+			"key"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/albin/Development/InteraktionDesign_courses/app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.arduino-runner":
+	{
+		"height": 110.0
+	},
+	"output.exec":
+	{
+		"height": 458.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.lucy_light_runner":
+	{
+		"height": 110.0
+	},
+	"output.stino_log":
+	{
+		"height": 110.0
+	},
+	"project": "InteraktionDesign_courses.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes.php",
+				"app/Http/routes.php"
+			],
+			[
+				"",
+				"limesaudio.com/style/less/responsive_small.less"
+			],
+			[
+				"base.less",
+				"limesaudio.com/style/less/base.less"
+			],
+			[
+				"base.js",
+				"limesaudio.com/js/base.js"
+			],
+			[
+				"interaf",
+				"app/controllers/InterfaceController.php"
+			],
+			[
+				"master",
+				"app/views/layouts/master.blade.php"
+			],
+			[
+				"filter",
+				"app/filters.php"
+			],
+			[
+				"route",
+				"app/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Sublime Projects/CodeTLOnline.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

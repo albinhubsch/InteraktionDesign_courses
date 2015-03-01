@@ -1,0 +1,95 @@
+@lightBlue: #6D97BF;
+@darkBlue: #21394C;
+@bodyBG: rgb(250, 250, 250);
+
+body {
+  background: @bodyBG;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+*:focus{
+	outline: none;
+}
+
+a:hover{
+	color: @darkBlue;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	color: @lightBlue;
+}
+
+.nav>li>a{
+	color: @lightBlue;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	background: rgba(0, 0, 0, 0.02);
+	color: @darkBlue;
+}
+
+.jumbotron{
+	background: @lightBlue;
+
+	h3{
+		color: #fff;
+	}
+
+	p{
+		color: rgba(255, 255, 255, 0.8);
+		font-size: 11pt;
+	}
+}
+
+#jumbotron_search_field{
+	font-size: 36pt;
+	color: #fff;
+	border: none;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	background: none;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	max-width: 100%;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+#jumbotron_search_field:focus{
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.course-list{
+
+	.col-md-4{
+		padding: 8px;
+	}
+}
+
+.courseBox{
+	background: rgba(255, 255, 255, 1);
+	padding: 0 20px 20px 20px;
+	height: 210px;
+	overflow: hidden;
+
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
+
+	h2{
+		font-size: 16pt;
+	}
+}

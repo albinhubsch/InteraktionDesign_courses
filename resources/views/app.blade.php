@@ -66,7 +66,7 @@
 
 	  	<hr>
 		<footer>
-			<p>&copy; Interaktion & Design - Project by Albin Hübsch</p>
+			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Project by Albin Hübsch</a></p>
 		</footer>
 	</div>
 

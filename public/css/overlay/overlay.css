@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #fcfcfc;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 *:focus {
@@ -56,17 +56,16 @@ a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.course-list .col-md-4 {
-  padding: 8px;
-}
-.courseBox {
-  background: #ffffff;
+.course-list-item {
+  background: rgba(255, 255, 255, 0);
   padding: 0 20px 20px 20px;
-  height: 210px;
+  margin-bottom: 0px;
   overflow: hidden;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
-.courseBox h2 {
+.course-list-item h2 {
   font-size: 16pt;
+}
+.course-list-item:hover {
+  background: #ffffff;
 }

@@ -2,20 +2,16 @@
 
 @section('content')
 <div class="row">
+	<div class="course-list col-md-9">
 	@foreach($courses as $course)
-		<div class="course-list">
-			<div class="col-md-4">
-				<div class="courseBox">
-					<h2><a href="#">{{ $course->name }}</a></h2>
-					{{ $course->academic_units }}hp <br>
-					{{ $course->level }} <br>
-					{{ $course->period }} <br>
-					{{ $course->speed }} <br>
-					{{ $course->prerequisite }}
-				</div>
-			</div>
+		<div class="course-list-item">
+			<h2><a href="#">{{ $course->name }}</a></h2>
 		</div>
 	@endforeach
+	</div>
+	<div class="col-md-3">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic corporis inventore rem perferendis reiciendis aspernatur obcaecati, facilis labore quam soluta blanditiis voluptas, modi rerum aperiam libero odio magni, porro odit.
+	</div>
 </div>
 @endsection
 

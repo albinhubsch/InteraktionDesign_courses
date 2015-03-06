@@ -6,6 +6,21 @@
 	@foreach($courses as $course)
 		<div class="course-list-item">
 			<h2><a href="#">{{ $course->name }}</a></h2>
+			<span>
+				
+				<h3>
+					<span>Studietakt:</span> {{ $course->speed }} 
+				</h3>
+				<h3>
+					<span>Läsperiod:</span> {{ $course->period }} 
+				</h3>
+				<h3> 
+					<span>Högskolepoäng:</span> {{ $course->academic_units }} hp
+				</h3>
+				<h3>
+					<span>Nivå:</span> {{ $course->level }} 
+				</h3>
+			</span>
 		</div>
 	@endforeach
 	</div>

@@ -37,10 +37,33 @@
 		</div>
 
 		<div class="single-page-reviews">
-			<h3>Recensioner</h3>	
+			
+			<h3>Recensioner</h3>
+ 			
 
-			{{{ $course->description }}}
+   
+<style> 
+inputs:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
 
+inputs-moz-placeholder {
+    color: #b5b5b5;
+}
+</style> 
+
+<div class ="text-review"> 
+
+			@foreach($course->reviews as $review)
+				<span>{{{ $review->author }}}</span>
+				<br>
+				{{{ $review->text }}}
+				<hr>
+				
+			@endforeach
+				
+
+</div>
 		</div>
 	</div>
 
@@ -53,5 +76,8 @@
 		</ul>
 
 	</div>
+
+
+
 </div>
 @endsection

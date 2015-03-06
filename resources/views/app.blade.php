@@ -55,10 +55,6 @@
 	<div class="jumbotron">
 		<div class="container">
 			@yield('jumbotron')
-			{{-- <h3>Sök efter kurs</h3>
-			<input id="jumbotron_search_field" name="jumbotron_search_field" class=".col-xs-12 .col-md-8" type="text">
-			<br><br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quo ad voluptas, cupiditate eos autem.</p> --}}
 		</div>
 	</div>
 

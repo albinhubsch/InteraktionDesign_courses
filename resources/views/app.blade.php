@@ -16,6 +16,9 @@
 	<!-- Bootstrap core CSS -->
 	{!! Html::style('/css/bootstrap.min.css') !!}
 
+	{{-- Include font awesome --}}
+	{!! Html::style('/font-awesome/css/font-awesome.min.css') !!}
+
 	<!-- Custom styles for this template -->
 	{!! Html::style('/css/overlay/overlay.css') !!}
 

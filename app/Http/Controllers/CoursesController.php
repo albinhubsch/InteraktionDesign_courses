@@ -16,7 +16,7 @@ class CoursesController extends Controller {
 	public function index()
 	{
 		//
-		$courses = Course::all();
+		$courses = Course::orderBy('name')->get();
 		return view('courses')->with('courses', $courses);
 	}
 
@@ -39,8 +39,7 @@ class CoursesController extends Controller {
 	public function store()
 	{
 		//
-		$input = Request::all();
-		Course::create($input);
+		Course::create(Request::all());
 		return $input;
 	}
 

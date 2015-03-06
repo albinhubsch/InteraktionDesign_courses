@@ -14,10 +14,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- Bootstrap core CSS -->
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	{!! Html::style('/css/bootstrap.min.css') !!}
 
 	<!-- Custom styles for this template -->
-	<link href="/css/overlay/overlay.css" rel="stylesheet">
+	{!! Html::style('/css/overlay/overlay.css') !!}
 
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -54,10 +54,11 @@
 	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="jumbotron">
 		<div class="container">
-			<h3>Sök efter kurs</h3>
+			@yield('jumbotron')
+			{{-- <h3>Sök efter kurs</h3>
 			<input id="jumbotron_search_field" name="jumbotron_search_field" class=".col-xs-12 .col-md-8" type="text">
 			<br><br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quo ad voluptas, cupiditate eos autem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quo ad voluptas, cupiditate eos autem.</p> --}}
 		</div>
 	</div>
 

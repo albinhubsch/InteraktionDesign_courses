@@ -93,6 +93,12 @@ a:hover {
 .single-course-title h2 {
   color: white;
 }
+.col-md-9 h3 {
+  margin-bottom: 20px;
+}
+.col-md-9 span {
+  line-height: 23px;
+}
 .course-list-item:hover {
   background: #ffffff;
 }

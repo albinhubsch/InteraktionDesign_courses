@@ -66,7 +66,7 @@
 
 	  	<hr>
 		<footer>
-			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Project by Albin Hübsch, Victor Winnhed & Nicole Martini</a></p>
+			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub</a></p>
 		</footer>
 	</div>
 

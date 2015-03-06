@@ -24,6 +24,9 @@ Route::get('/kurser/{course}', 'CourseController@index');
 Route::get('/add', 'CoursesController@create');
 Route::post('/add', 'CoursesController@store');
 
+// Dev Sidor för tillägg av recensioner
+Route::get('/addReview', 'ReviewController@create');
+Route::post('/addReview', 'ReviewController@store');
 
 // 
 // Route::controllers([

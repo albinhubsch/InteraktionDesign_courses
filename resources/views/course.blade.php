@@ -1,8 +1,30 @@
 @extends('app')
 
 @section('jumbotron')
-	<h3>{{{ $course->name }}}</h3>
+	
+	<h2 class ="single-course-title"> 
+	{{{ $course->name }}}
+	</h2>
+		<div class="course-list-item2">
+
+			<span>
+				
+				<h3>
+					<span>Studietakt:</span> {{ $course->speed }} 
+				</h3>
+				<h3>
+					<span>Läsperiod:</span> {{ $course->period }} 
+				</h3>
+				<h3> 
+					<span>Högskolepoäng:</span> {{ $course->academic_units }} hp
+				</h3>
+				<h3>
+					<span>Nivå:</span> {{ $course->level }} 
+				</h3>
+			</span>
+		</div>
 @endsection
+
 
 @section('content')
 <div class="row">

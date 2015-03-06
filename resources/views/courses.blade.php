@@ -19,7 +19,7 @@
 					<span>Studietakt:</span> {{ $course->speed }} 
 				</h3>
 				<h3>
-					<span>Läsperiod:</span> {{ $course->period }} 
+					<span>Läsperiod:</span> {{ $periodArray[$course->period] }} 
 				</h3>
 				<h3> 
 					<span>Högskolepoäng:</span> {{ $course->academic_units }} hp

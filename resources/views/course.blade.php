@@ -31,14 +31,27 @@
 	<div class="col-md-9">
 		<h3>Kursbeskrivning</h3>
 			
-			<span class="course-single-page-info">
+		<div class="course-single-page-info">
+		{{{ $course->description }}}
+
+		</div>
+
+		<div class="single-page-reviews">
+			<h3>Recensioner</h3>	
+
 			{{{ $course->description }}}
 
-			</span>
+		</div>
 	</div>
 
 	<div class="col-md-3">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic corporis inventore rem perferendis reiciendis aspernatur obcaecati, facilis labore quam soluta blanditiis voluptas, modi rerum aperiam libero odio magni, porro odit.
+
+		<h3>Länkar</h3>
+		<ul>
+  			<li><a href="http://www.umu.se/utbildning/program-kurser/kurs/?code=5TF034">Kursen på Umeå Universitet</a></li>
+  			<li><a href="https://www.antagning.se/se/course/HT_2015/UMU-54811">Kursen på Antagning</a></li>
+		</ul>
+
 	</div>
 </div>
 @endsection

@@ -20,4 +20,13 @@ class Course extends Model {
 
 	public $timestamps = true;
 
+	/**
+	 * Relation to reviews
+	 * @return [type] [description]
+	 */
+	public function reviews()
+	{
+		return $this->hasMany('App\Review');
+	}
+
 }

@@ -29,4 +29,13 @@ class Course extends Model {
 		return $this->hasMany('App\Review');
 	}
 
+	/**
+	 * Relation to tags
+	 * @return [type] [description]
+	 */
+	public function tags()
+	{
+		return $this->belongsToMany('App\Tag', 'course_tag');
+	}
+
 }

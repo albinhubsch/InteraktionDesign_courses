@@ -93,6 +93,9 @@
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic corporis inventore rem perferendis reiciendis aspernatur obcaecati, facilis labore quam soluta blanditiis voluptas, modi rerum aperiam libero odio magni, porro odit.
 	</div>
 </div>
+<script>
+	var data = {{{ $courses }}}
+</script>
 @endsection
 
 {{-- $table->increments('id');

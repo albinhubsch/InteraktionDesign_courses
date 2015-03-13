@@ -2,6 +2,7 @@
 @darkBlue: #21394C;
 @bodyBG: rgb(252, 252, 252);
 
+
 body {
   background: @bodyBG;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -73,127 +74,10 @@ a:hover{
 	transition: all 0.3s ease-in-out;
 }
 
-.course-list{
 
-}
 
-.course-list-item{
-	background: rgba(255, 255, 255, 0);
-	padding: 0 20px 0px 20px;
-	// height: 170px;
-	margin-bottom: 0px;
-	overflow: hidden;
-	border-top: 1px solid rgba(0, 0, 0, 0.05);
 
-	// -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
-	// box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
 
-	h2{
-		font-size: 16pt;
-	}
-	span{
 
-		h3{
-			float: left;
-			font-size: 10pt;
-			color: #7f8c8d;
-			margin: 0 20px 20px 0;
-
-			span{
-				font-weight: bold;
-			}			
-		}
-	}
-}
-.course-list-item2{
-	background: rgba(255, 255, 255, 0);
-	padding: 0 20px 0px 0px;
-	// height: 170px;
-	margin-bottom: 0px;
-	overflow: hidden;
-	
-
-	// -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
-	// box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
-
-	span{
-
-		h3{
-			float: left;
-			font-size: 10pt;
-			color: white;
-			margin: 0 20px 20px 0;
-
-			span{
-				font-weight: bold;
-			}			
-		}
-	}
-
-}
-
-.single-course-title{
-
-	h2{
-		color: white;
-	}
-}
-
-.course-single-page-info{
-
-	margin-right: 100px;
-	line-height: 23px;
-	margin-top: 20px;
-}
-
-.col-md-3{
-
-	h3{
-		margin-bottom: 20px;
-		line-height: 23px;
-
-	}
-
-	ul{
-
-		list-style: none;
-		padding: 0px 0px 0px 0px;
-
-	}
-
-}
-
-.single-page-reviews{
-
-	margin-right: 100px;
-	line-height: 23px;
-	margin-top: 50px;
-	font-style: italic;
-	
-	h3{
-
-		margin-bottom: 20px;
-	}
-
-	span{
-	
-	margin-top: 20px;
-	font-weight: bold;
-
-	}
-}
-.course-list-item:hover{
-	background: rgba(255, 255, 255, 1);
-}
-
-.text-review {
-    background: #f5f5f5;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    border: none;
-    padding: 13px 10px;
-    width: relative;
-    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
-    clear: both;
-}
+@import "coursesOverview.less";
+@import "singleCoursePage.less";

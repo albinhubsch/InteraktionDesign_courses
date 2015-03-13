@@ -52,18 +52,27 @@ inputs-moz-placeholder {
 }
 </style> 
 
-<div class ="text-review"> 
+		
+			@if(count($course->reviews) != 0)
+				<div class ="text-review"> 
+				@foreach($course->reviews as $review)
+					<div class="review-content">
+						<span>{{{ $review->author }}}</span>
+						<br>
+						<p id="review-text">{{{ $review->text }}}</p>
+						<br>
+						<div id="border"></div>
+					</div>	
 
-			@foreach($course->reviews as $review)
-				<span>{{{ $review->author }}}</span>
-				<br>
-				{{{ $review->text }}}
-				<hr>
-				
-			@endforeach
-				
+				@endforeach
+				</div>
+			@else
+				<p>Tyvärr finns det inga recensioner för denna kurs</p>  
 
-</div>
+			@endif
+			
+
+
 		</div>
 	</div>
 

@@ -34,4 +34,10 @@ return [
 		'secret' => '',
 	],
 
+	// 'facebook' => [
+	// 	'client_id' 	=> 'insert id here',
+	// 	'client_secret' => 'insert secret here',
+	// 	'redirect'		=> 'redirect yo',
+	// ],
+
 ];

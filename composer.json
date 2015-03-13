@@ -41,5 +41,7 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	}
+	},
+	
+	"laravel/socialite": "~2.0"
 }

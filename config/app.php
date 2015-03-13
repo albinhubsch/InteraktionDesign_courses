@@ -195,7 +195,7 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Html' 		=> 'Collective\Html\HtmlFacade',
 		'Form' 		=> 'Collective\Html\FormFacade',
-
-	],
+	'Socialize' => 'Laravel\Socialite\Facades\Socialite',
+	]
 
 ];

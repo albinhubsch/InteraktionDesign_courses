@@ -1,3 +1,36 @@
+.btn-group {
+  color: white;
+}
+.btn-group .btn-default:hover,
+.btn-group .btn-default:focus,
+.btn-group .btn-default.focus,
+.btn-group .btn-default:active,
+.btn-group .btn-default.active,
+.btn-group .open > .dropdown-toggle.btn-default {
+  background-color: white;
+  color: grey;
+  border-color: white;
+}
+.btn-group .dropdown-menu {
+  background-color: #6d97bf;
+}
+.btn-group .dropdown-menu a {
+  color: white;
+}
+.btn-group .dropdown-menu a:hover {
+  color: grey;
+  background-color: white;
+}
+.btn-group .btn:first-child {
+  margin-right: 15px;
+}
+.btn-group .btn {
+  color: white;
+}
+.btn-group .btn-default {
+  background-color: #6d97bf;
+  color: white;
+}
 .course-list-item {
   background: rgba(255, 255, 255, 0);
   padding: 0 20px 0px 20px;

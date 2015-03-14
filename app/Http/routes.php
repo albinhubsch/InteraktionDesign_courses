@@ -11,8 +11,6 @@
 |
 */
 
-use App\Tag;
-
 // Homepage
 Route::get('/', 'HomeController@index');
 
@@ -42,13 +40,42 @@ Route::post('/add', 'CoursesController@store');
 Route::get('/addReview', 'ReviewController@create');
 Route::post('/addReview', 'ReviewController@store');
 
+Route::get('/testTag', function(){
+	$course = App\Course::find(1);
+	$arr = '';
+	foreach ($course->tags()->get() as $tag) {
+		$arr = ''.$tag->short.':'.$arr;
+	}
+	return $arr;
+});
+
 // 
 Route::get('/addTagConn', function(){
-	return view('addTagConn')->with('tags', DB::table('tags')->select('name', 'id')->get() );
+	$tags = array();
+
+	foreach (DB::table('tags')->select('short', 'id')->get() as $tag) {
+		$tags = array_add($tags, $tag->id, $tag->short);
+	}
+
+	$courses = array();
+
+	foreach (DB::table('courses')->select('name', 'id')->get() as $course) {
+		$courses = array_add($courses, $course->id, $course->name);
+	}
+
+	// return $tags;
+	return view('addTagConn')->with('tags', $tags)->with('courses', $courses);
 });
 
 Route::post('/addTagConn', function(){
-	Tag::create(Request::all());
+	
+	$input = Request::all();
+
+	$course = App\Course::find($input['course_id']);
+
+	$course->tags()->attach($input['tag_id']);
+
+	return 'tillagd';
 });
 
 // 

@@ -1,12 +1,10 @@
 {!! Form::open(array('url' => '/addTagConn')) !!}
 
-	{{{ $tags }}}
+	{!! Form::select('tag_id', $courses) !!}
+    <br><br>
 
-    {!! Form::select('course_id', array('L' => 'Large', 'S' => 'Small')) !!}
-	<br>
-
-	{!! Form::select('tag_id', array('L' => 'Large', 'S' => 'Small')) !!}
-    <br>
+    {!! Form::select('course_id', $tags) !!}
+	<br><br>
 
     {!! Form::submit('Lägg till'); !!}
 {!! Form::close() !!}

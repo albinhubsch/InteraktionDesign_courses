@@ -306,10 +306,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['Y'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -317,10 +314,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['Y'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -335,7 +329,7 @@
 			</tr>
 		</table>
 
-		<h4>Teknik för interaktion</h4>
+		<h4>Teknik för interaktion fördjupning</h4>
 		<p>Fördjupning, 3 kurser varav 2 på avancerad nivå i datavetenskap eller medieteknik, 22,5 hp.</p>
 		<table class="table table-striped">
 			<tr>
@@ -363,10 +357,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['F'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -392,10 +383,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['B'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -403,10 +391,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['B'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -432,10 +417,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -443,10 +425,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -454,10 +433,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -465,10 +441,7 @@
 			</tr>
 			<tr>
 				<td>
-					<select class="form-control">
-						<option> -- </option>
-						<option> -- </option>
-					</select>
+					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
 				</td>
 				<td></td>
 				<td>7,5 hp</td>

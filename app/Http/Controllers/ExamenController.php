@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
+use App\Tag;
+
 class ExamenController extends Controller {
 
 	/**
@@ -14,8 +16,22 @@ class ExamenController extends Controller {
 	 */
 	public function index()
 	{
-		//
-		return view('examenform');
+		$tag_courses = array();
+		
+		$tags = Tag::get();
+		foreach ($tags as $tag) {
+
+			$temp = array();
+
+			foreach ($tag->courses()->get() as $course) {
+				$temp = array_add($temp, $course->id, $course->name);
+			}
+
+			$tag_courses = array_add($tag_courses, $tag->short, $temp);
+
+		}
+
+		return view('examenform')->with('tag_courses', $tag_courses);
 	}
 
 	/**

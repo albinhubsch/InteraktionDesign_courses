@@ -18,10 +18,10 @@ Route::get('/', 'HomeController@index');
 Route::get('/examen', 'ExamenController@index');
 
 // Undersidan för listning av alla kurser
-Route::get('/kurser', 'CoursesController@index');
+Route::get('/kurser', 'CourseController@index');
 
 // Route för specifik kurs
-Route::get('/kurser/{course}', 'CourseController@index');
+Route::get('/kurser/{course}', 'CourseController@show');
 
 
 
@@ -33,8 +33,8 @@ Route::get('/kurser/{course}', 'CourseController@index');
 
 
 // Dev Sidor för tillägg av kurser
-Route::get('/add', 'CoursesController@create');
-Route::post('/add', 'CoursesController@store');
+Route::get('/add', 'CourseController@create');
+Route::post('/add', 'CourseController@store');
 
 // Dev Sidor för tillägg av recensioner
 Route::get('/addReview', 'ReviewController@create');

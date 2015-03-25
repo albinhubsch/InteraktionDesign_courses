@@ -664,18 +664,6 @@
         },
         {
             "name": "laravel/framework",
-<<<<<<< Updated upstream
-            "version": "v5.0.18",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "b21be29a1fb12c84ab4e0b723e9c11492d0b25fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b21be29a1fb12c84ab4e0b723e9c11492d0b25fe",
-                "reference": "b21be29a1fb12c84ab4e0b723e9c11492d0b25fe",
-=======
             "version": "v5.0.20",
             "source": {
                 "type": "git",
@@ -686,7 +674,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/419d3f485ce7946cace4325ef19a30e1d5543951",
                 "reference": "419d3f485ce7946cace4325ef19a30e1d5543951",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -799,9 +786,6 @@
                 "framework",
                 "laravel"
             ],
-<<<<<<< Updated upstream
-            "time": "2015-03-21 16:10:01"
-=======
             "time": "2015-03-24 13:36:37"
         },
         {
@@ -857,7 +841,6 @@
                 "oauth"
             ],
             "time": "2015-03-13 02:40:10"
->>>>>>> Stashed changes
         },
         {
             "name": "laravelcollective/html",
@@ -1220,18 +1203,6 @@
         },
         {
             "name": "nikic/php-parser",
-<<<<<<< Updated upstream
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/edbf162e4cf116102d95eb635608b7d310cc01c6",
-                "reference": "edbf162e4cf116102d95eb635608b7d310cc01c6",
-=======
             "version": "v1.2.1",
             "source": {
                 "type": "git",
@@ -1242,7 +1213,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dba7524b3724f25b947cd26a580787c55c8a6f9b",
                 "reference": "dba7524b3724f25b947cd26a580787c55c8a6f9b",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -1274,11 +1244,7 @@
                 "parser",
                 "php"
             ],
-<<<<<<< Updated upstream
-            "time": "2015-03-22 16:17:25"
-=======
             "time": "2015-03-24 19:10:28"
->>>>>>> Stashed changes
         },
         {
             "name": "psr/log",
@@ -1388,8 +1354,6 @@
                 "shell"
             ],
             "time": "2015-03-17 15:17:33"
-<<<<<<< Updated upstream
-=======
         },
         {
             "name": "react/promise",
@@ -1434,7 +1398,6 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2014-12-30 13:32:42"
->>>>>>> Stashed changes
         },
         {
             "name": "swiftmailer/swiftmailer",

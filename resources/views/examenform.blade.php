@@ -4,6 +4,7 @@
 
 <div class ="single-course-title"> 
 	<h2>Examensformulär</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quo ad voluptas, cupiditate eos autem.</p>
 </div>
 @endsection
 
@@ -12,9 +13,9 @@
 
 <div class="row">
 	<div class="col-md-9">
-		<h3>Baskurser</h3>
-		<p>Platsgaranti för programstudenter</p><br>
-		<h4>Teknik för interaktion</h4>
+		<h3 id="Baskurser">Baskurser</h3>
+		<p>Platsgaranti för programstudenter</p>
+		<h4 id="Teknik-för-interaktion">Teknik för interaktion</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -73,7 +74,7 @@
 			</tr>
 		</table>
 
-		<h4>Datavetenskap</h4>
+		<h4 id="Datavetenskap">Datavetenskap</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -108,7 +109,7 @@
 			</tr>
 		</table>
 
-		<h4>Medieteknik</h4>
+		<h4 id="Medieteknik">Medieteknik</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -131,7 +132,7 @@
 			</tr>
 		</table>
 
-		<h4>Matematik och matematisk statistik</h4>
+		<h4 id="Matematik-&-Matematisk-statistik">Matematik & matematisk statistik</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -183,7 +184,7 @@
 			</tr>
 		</table>
 
-		<h4>Industridesign</h4>
+		<h4 id="Industridesign">Industridesign</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -206,7 +207,7 @@
 			</tr>
 		</table>
 
-		<h4>Kultur & Medier</h4>
+		<h4 id="Kultur-&-Medier">Kultur & Medier</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -229,7 +230,7 @@
 			</tr>
 		</table>
 
-		<h4>Psykologi</h4>
+		<h4 id="Psykologi">Psykologi</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -252,7 +253,7 @@
 			</tr>
 		</table>
 
-		<h4>Allmäna Ingenjörskurser</h4>
+		<h4 id="Allmäna-Ingenjörskurser">Allmäna Ingenjörskurser</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -281,9 +282,9 @@
 			</tr>
 		</table>
 
-		<h3>Valbara Kurser</h3>
-		<p>Flertalet kurser skall du själv välja och fylla din examen med.</p><br>
-		<h4>Teknik för interaktion yrkesförberedande</h4>
+		<h3 id="Valbara-Kurser">Valbara Kurser</h3>
+		<p>Flertalet kurser skall du själv välja och fylla din examen med.</p>
+		<h4 id="Teknik-för-interaktion-yrkesförberedande">Teknik för interaktion yrkesförberedande</h4>
 		<p>4 kurser varav 1 projektkurs och 2 på avancerad nivå, 30 hp</p>
 		<table class="table table-striped">
 			<tr>
@@ -304,22 +305,18 @@
 				<td>7,5 hp</td>
 				<td></td>
 			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['Y'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['Y'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
+			@for ($i = 0; $i < 2; $i++)
+				<tr>
+					<td>
+						<select name="Y-kurs-{!! $i !!}" class="form-control select-Y-kurser">
+							<option value="0">--</option>
+						</select>
+					</td>
+					<td></td>
+					<td>7,5 hp</td>
+					<td></td>
+				</tr>
+			@endfor
 
 			<tr>
 				<td></td>
@@ -329,7 +326,7 @@
 			</tr>
 		</table>
 
-		<h4>Teknik för interaktion fördjupning</h4>
+		<h4 id="Teknik-för-interaktion-fördjupning">Teknik för interaktion fördjupning</h4>
 		<p>Fördjupning, 3 kurser varav 2 på avancerad nivå i datavetenskap eller medieteknik, 22,5 hp.</p>
 		<table class="table table-striped">
 			<tr>
@@ -339,17 +336,6 @@
 				<th>Kommentar</th>
 			</tr>
 			<tr>
-				<td>
-					<select class="form-control">
-						<option>Student Conference</option>
-						<option>Aktuell utveckling av interaktionsteknik och design</option>
-					</select>
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-			<tr>
 				<td>Artificiell Intelligens</td>
 				<td></td>
 				<td>7,5 hp</td>
@@ -357,13 +343,27 @@
 			</tr>
 			<tr>
 				<td>
-					{!! Form::select('course_id', $tag_courses['F'], null, array('class' => 'form-control')) !!}
+					<select class="form-control">
+						<option value="">Student Conference</option>
+						<option value="">Aktuell utveckling av interaktionsteknik och design</option>
+					</select>
 				</td>
 				<td></td>
 				<td>7,5 hp</td>
 				<td></td>
 			</tr>
-
+			@for ($i = 0; $i < 1; $i++)
+				<tr>
+					<td>
+						<select name="F-kurs-{!! $i !!}" class="form-control select-F-kurser">
+							<option value="0">--</option>
+						</select>
+					</td>
+					<td></td>
+					<td>7,5 hp</td>
+					<td></td>
+				</tr>
+			@endfor
 			<tr>
 				<td></td>
 				<td></td> 
@@ -372,7 +372,7 @@
 			</tr>
 		</table>
 
-		<h4>Breddingskurser</h4>
+		<h4 id="Breddningskurser">Breddingskurser</h4>
 		<p>Inom psykologi, pedagogik, industridesign, lingvistik, ekonomi, informatik (ej tekniska kurser) 15 hp</p>
 		<table class="table table-striped">
 			<tr>
@@ -381,23 +381,18 @@
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['B'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['B'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-
+			@for ($i = 0; $i < 2; $i++)
+				<tr>
+					<td>
+						<select name="B-kurs-{!! $i !!}" class="form-control select-B-kurser">
+							<option value="0">--</option>
+						</select>
+					</td>
+					<td></td>
+					<td>7,5 hp</td>
+					<td></td>
+				</tr>
+			@endfor
 			<tr>
 				<td></td>
 				<td></td> 
@@ -406,8 +401,8 @@
 			</tr>
 		</table>
 
-		<h4>Fria Kurser</h4>
-		<p></p>
+		<h4 id="Fria-kurser">Fria Kurser</h4>
+		<p>Totalt 30 hp fria kurser. Kan väljas fritt bland kurser.</p>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
@@ -415,39 +410,18 @@
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
-					{!! Form::select('course_id', $tag_courses['Fri'], null, array('class' => 'form-control')) !!}
-				</td>
-				<td></td>
-				<td>7,5 hp</td>
-				<td></td>
-			</tr>
-
+			@for ($i = 0; $i < 4; $i++)
+				<tr>
+					<td>
+						<select name="fri-kurs-{!! $i !!}" class="form-control select-Fri-kurser">
+							<option value="0">--</option>
+						</select>
+					</td>
+					<td></td>
+					<td>7,5 hp</td>
+					<td></td>
+				</tr>
+			@endfor
 			<tr>
 				<td></td>
 				<td></td> 
@@ -456,7 +430,7 @@
 			</tr>
 		</table>
 
-		<h4>Examensarbete</h4>
+		<h4 id="Examensarbete">Examensarbete</h4>
 		<p></p>
 		<table class="table table-striped">
 			<tr>
@@ -489,28 +463,43 @@
 	</div>
 
 	<div class="col-md-3">
-		<div class="hidden-print hidden-xs hidden-sm affix">
+		<div id="right-static-nav" class="hidden-print hidden-xs hidden-sm" data-spy="affix" data-offset-top="280">
 			<ul>
-				<li>Baskurser</li>
-				<ul>
-					<li>Teknik för interaktion</li>
-					<li>Datavetenskap</li>
-					<li>Medieteknik</li>
-					<li>Matematik & Matematisk statistik</li>
-					<li>Industridesign</li>
-					<li>Kultur & Medier</li>
-					<li>Psykologi</li>
-					<li>Allmäna Ingenjörskurser</li>
-				</ul>
-				<li>Valbara kurser</li>
-				<ul>
-					<li>Teknik för interaktion yrkesförberedande</li>
-					<li>Teknik för interaktion</li>
-					<li>Breddningskurser</li>
-					<li>Fria kurser</li>
-				</ul>
+				<li>
+					<a class="right-static-nav-header" href="#Baskurser">Baskurser</a>
+					<ul class="right-static-nav-inner">
+						<li><a href="#Teknik-för-interaktion">Teknik för interaktion</a></li>
+						<li><a href="#Datavetenskap">Datavetenskap</a></li>
+						<li><a href="#Medieteknik">Medieteknik</a></li>
+						<li><a href="#Matematik-&-Matematisk-statistik">Matematik & Matematisk statistik</a></li>
+						<li><a href="#Industridesign">Industridesign</a></li>
+						<li><a href="#Kultur-&-Medier">Kultur & Medier</a></li>
+						<li><a href="#Psykologi">Psykologi</a></li>
+						<li><a href="#Allmäna-Ingenjörskurser">Allmäna Ingenjörskurser</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="right-static-nav-header" href="#Valbara-Kurser">Valbara kurser</a>
+					<ul class="right-static-nav-inner">
+						<li><a href="#Teknik-för-interaktion-yrkesförberedande">Teknik för interaktion yrkesförberedande</a></li>
+						<li><a href="#Teknik-för-interaktion-fördjupning">Teknik för interaktion fördjupning</a></li>
+						<li><a href="#Breddningskurser">Breddningskurser</a></li>
+						<li><a href="#Fria-kurser">Fria kurser</a></li>
+						<li><a href="#Examensarbete">Examensarbete</a></li>
+					</ul>
+				</li>
 			</ul>
+			<hr>
+			<div id="controllers">
+				<button class="btn btn-success btn-block">Spara formuläret</button>
+				<button class="btn btn-success btn-block">Ladda ner som PDF</button>
+			</div>
 		</div>
 	</div>
 </div>
+{{-- LOAD DATA INTO JAVASCRIPT VARIABLE --}}
+<script>
+	var examen_kurser = {!! json_encode($tag_courses); !!};
+</script>
+
 @endsection

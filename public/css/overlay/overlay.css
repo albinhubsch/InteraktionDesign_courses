@@ -2,6 +2,22 @@ body {
   background: #fcfcfc;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+h1 {
+  padding: 20px 0 9px;
+  margin-bottom: 6px;
+}
+h2 {
+  padding: 18px 0 9px;
+  margin-bottom: 6px;
+}
+h3 {
+  padding: 16px 0 9px;
+  margin-bottom: 6px;
+}
+h4 {
+  padding: 16px 0 9px;
+  margin-bottom: 6px;
+}
 *:focus {
   outline: none;
 }
@@ -98,12 +114,14 @@ a:hover {
 }
 .course-list-item h2 {
   font-size: 16pt;
+  margin: 6px 0 0 0;
 }
 .course-list-item span h3 {
   float: left;
   font-size: 10pt;
   color: #7f8c8d;
   margin: 0 20px 20px 0;
+  padding: 3px 0 6px 0;
 }
 .course-list-item span h3 span {
   font-weight: bold;
@@ -184,4 +202,26 @@ a:hover {
 }
 .review-content:last-child #border {
   border: none;
+}
+#right-static-nav {
+  top: 20px;
+  margin-top: 30px;
+}
+.right-static-nav-header {
+  font-size: 12pt;
+  color: rgba(0, 0, 0, 0.7);
+}
+.right-static-nav-inner {
+  font-size: 10pt;
+  margin: 4px 0 6px 16px;
+}
+.right-static-nav-inner a {
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+#controllers {
+  margin-top: 24px;
+}
+#controllers button {
+  margin-bottom: 10px;
 }

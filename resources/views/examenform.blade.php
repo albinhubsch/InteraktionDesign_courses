@@ -296,13 +296,13 @@
 			<tr>
 				<td>Ubiquitous computing</td>
 				<td></td>
-				<td>7,5 hp</td>
+				<td class="academic_units">7.5 hp</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>DBT - Design Build Test</td>
 				<td></td>
-				<td>7,5 hp</td>
+				<td class="academic_units">7.5 hp</td>
 				<td></td>
 			</tr>
 			@for ($i = 0; $i < 2; $i++)
@@ -313,7 +313,7 @@
 						</select>
 					</td>
 					<td></td>
-					<td>7,5 hp</td>
+					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
 			@endfor
@@ -321,7 +321,7 @@
 			<tr>
 				<td></td>
 				<td></td> 
-				<th>30 hp</th>
+				<th class="academic_units_sum">--</th>
 				<td></td>
 			</tr>
 		</table>
@@ -338,7 +338,7 @@
 			<tr>
 				<td>Artificiell Intelligens</td>
 				<td></td>
-				<td>7,5 hp</td>
+				<td class="academic_units">7.5 hp</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -349,7 +349,7 @@
 					</select>
 				</td>
 				<td></td>
-				<td>7,5 hp</td>
+				<td class="academic_units">7.5 hp</td>
 				<td></td>
 			</tr>
 			@for ($i = 0; $i < 1; $i++)
@@ -360,14 +360,14 @@
 						</select>
 					</td>
 					<td></td>
-					<td>7,5 hp</td>
+					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
 			@endfor
 			<tr>
 				<td></td>
 				<td></td> 
-				<th>22,5 hp</th>
+				<th class="academic_units_sum">--</th>
 				<td></td>
 			</tr>
 		</table>
@@ -389,14 +389,14 @@
 						</select>
 					</td>
 					<td></td>
-					<td>7,5 hp</td>
+					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
 			@endfor
 			<tr>
 				<td></td>
 				<td></td> 
-				<th>15 hp</th>
+				<th class="academic_units_sum">--</th>
 				<td></td>
 			</tr>
 		</table>
@@ -418,14 +418,14 @@
 						</select>
 					</td>
 					<td></td>
-					<td>7,5 hp</td>
+					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
 			@endfor
 			<tr>
 				<td></td>
 				<td></td> 
-				<th>30 hp</th>
+				<th class="academic_units_sum">--</th>
 				<td></td>
 			</tr>
 		</table>

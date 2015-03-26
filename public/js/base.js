@@ -49,10 +49,22 @@ var SearchModule = {
 var ExamenFormModule = {
 
 	courses: examen_kurser,
+	indexedCourses: [],
 	selected_courses: [],
 
 	// 
 	init: function(){
+
+		// Search through courses and index them on id
+		$.each(Object.keys(this.courses), function(){
+			var key = this;
+			$.each(ExamenFormModule.courses[this], function(){
+				if (ExamenFormModule.indexedCourses.indexOf(this.id) == -1 && this.id != 0){
+					ExamenFormModule.indexedCourses.push(this);
+				}
+			});
+		});
+
 		this.loadAvailableCourses();
 		this.listenForSelectChanges();
 	},
@@ -80,10 +92,9 @@ var ExamenFormModule = {
 	listenForSelectChanges: function(){
 		$('select').change(function(){
 			var id = $(this).find(":selected").attr('value');
-
 			ExamenFormModule.insertIntoSelected(id);
 			ExamenFormModule.redrawAvailableOptions();
-
+			ExamenFormModule.updateAcademicUnits($(this), id);
 		});
 	},
 
@@ -91,7 +102,6 @@ var ExamenFormModule = {
 	insertIntoSelected: function(id){
 		if (this.selected_courses.indexOf(id) == -1 && id != 0){
 			this.selected_courses.push(id);
-			// ExamenFormModule.redrawAvailableOptions();
 		}
 	},
 
@@ -105,6 +115,24 @@ var ExamenFormModule = {
 		$.each(ExamenFormModule.selected_courses, function(){
 			$('select option[value="'+this+'"]').attr('disabled', 'disabled');
 		});
+	},
+
+	// 
+	updateAcademicUnits: function(obj, id){
+		// 
+		obj.closest('tr').children('.academic_units').html(ExamenFormModule.indexedCourses[id].academic_units + ' hp');
+		this.summarizeTableAU(obj.closest('table'));
+	},
+
+	summarizeTableAU: function(table){
+		var sum = 0;
+		$.each(table.find('.academic_units'), function(){
+			if ($(this).html() != '--'){
+				var val = parseFloat($(this).html().split(' ')[0]);
+				sum = sum + val;
+			}
+		});
+		table.find('.academic_units_sum').html(sum + ' hp');
 	},
 
 }

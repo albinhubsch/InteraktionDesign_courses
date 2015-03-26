@@ -21,25 +21,12 @@ h4 {
 *:focus {
   outline: none;
 }
-a:hover {
-  color: #21394c;
-}
 .navbar {
   margin-bottom: 0;
-}
-.navbar-brand {
-  color: #6d97bf;
-}
-.nav > li > a {
-  color: #6d97bf;
 }
 .nav > li > a:focus,
 .nav > li > a:hover {
   background: rgba(0, 0, 0, 0.02);
-  color: #21394c;
-}
-.jumbotron {
-  background: #6d97bf;
 }
 .jumbotron h3 {
   color: #fff;

@@ -49,7 +49,6 @@
 				<ul class="nav navbar-right navbar-nav">
 					<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
 					<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
-					<li style="text-decoration:line-through;">{!! Html::link('#', 'Ladda ner') !!}</li>
 					<li>{!! Html::link('/loggain', 'Logga in') !!}</li>
 				</ul>
 			</div><!--/.navbar-collapse -->

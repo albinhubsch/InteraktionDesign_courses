@@ -18,6 +18,9 @@ h4 {
   padding: 16px 0 9px;
   margin-bottom: 6px;
 }
+i {
+  margin: 0 6px 0 0;
+}
 *:focus {
   outline: none;
 }
@@ -73,7 +76,7 @@ h4 {
   border-color: white;
 }
 .btn-group .dropdown-menu {
-  background-color: #6d97bf;
+  background-color: #3d83c9;
 }
 .btn-group .dropdown-menu a {
   color: white;
@@ -89,7 +92,7 @@ h4 {
   color: white;
 }
 .btn-group .btn-default {
-  background-color: #6d97bf;
+  background-color: #3d83c9;
   color: white;
 }
 .course-list-item {

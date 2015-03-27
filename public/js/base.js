@@ -12,11 +12,17 @@ var SearchModule = {
 
 	init: function(){
 		this.clearEventListener();
+		this.autoFocusOnField();
 		this.bindUIActions();
 	},
 
+	// Auto put cursor focus on input field on page load
+	autoFocusOnField: function(){
+		$('#jumbotron_search_field').focus();
+	},
+
 	bindUIActions: function(){
-		$('#jumbotron_search_field input').on('keyup', function(){
+		$('#jumbotron_search_field').on('keyup', function(){
 			// Get string from input field
 			SearchModule.search( $(this).val() );
 		});
@@ -37,7 +43,6 @@ var SearchModule = {
 			return 0;
 		}
 
-
 	},
 
 };
@@ -48,12 +53,16 @@ var SearchModule = {
 
 var ExamenFormModule = {
 
-	courses: examen_kurser,
+	courses: null,
 	indexedCourses: [],
 	selected_courses: [],
 
 	// 
 	init: function(){
+
+		if(typeof examen_kurser !== 'undefined'){
+			this.courses = examen_kurser
+		}
 
 		// Search through courses and index them on id
 		$.each(Object.keys(this.courses), function(){
@@ -137,4 +146,8 @@ var ExamenFormModule = {
 
 }
 
+// 
+// INITIATE ALL MODULES
+// 
+SearchModule.init();
 ExamenFormModule.init();

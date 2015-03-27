@@ -13,13 +13,13 @@
 
 <div class="row">
 	<div class="col-md-9">
-		<h3 id="Baskurser">Baskurser</h3>
+		<h3 id="Baskurser"><i class="fa fa-graduation-cap"></i> Baskurser</h3>
 		<p>Platsgaranti för programstudenter</p>
 		<h4 id="Teknik-för-interaktion">Teknik för interaktion</h4>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -78,7 +78,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -113,7 +113,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -136,7 +136,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -188,7 +188,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -211,7 +211,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -234,7 +234,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -257,7 +257,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -282,14 +282,14 @@
 			</tr>
 		</table>
 
-		<h3 id="Valbara-Kurser">Valbara Kurser</h3>
+		<h3 id="Valbara-Kurser"><i class="fa fa-cubes"></i> Valbara Kurser</h3>
 		<p>Flertalet kurser skall du själv välja och fylla din examen med.</p>
 		<h4 id="Teknik-för-interaktion-yrkesförberedande">Teknik för interaktion yrkesförberedande</h4>
 		<p>4 kurser varav 1 projektkurs och 2 på avancerad nivå, 30 hp</p>
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -331,7 +331,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -377,7 +377,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -406,7 +406,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -435,7 +435,7 @@
 		<table class="table table-striped">
 			<tr>
 				<th>Kurs</th>
-				<th>Datum</th>
+				<th></th>
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
@@ -491,8 +491,8 @@
 			</ul>
 			<hr>
 			<div id="controllers">
-				<button class="btn btn-success btn-block">Spara formuläret</button>
-				<button class="btn btn-success btn-block">Ladda ner som PDF</button>
+				<button class="btn btn-success btn-block"><i class="fa fa-hdd-o"></i> Spara formuläret</button>
+				<button class="btn btn-success btn-block"><i class="fa fa-print"></i> Skriv ut</button>
 			</div>
 		</div>
 	</div>

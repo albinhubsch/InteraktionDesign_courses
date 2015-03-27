@@ -68,7 +68,7 @@
 
 	  	<hr>
 		<footer>
-			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub</a></p>
+			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub <i class="fa fa-github"></i></a></p>
 		</footer>
 	</div>
 

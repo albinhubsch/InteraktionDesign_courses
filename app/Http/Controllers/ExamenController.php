@@ -17,21 +17,23 @@ class ExamenController extends Controller {
 	public function index()
 	{
 		$tag_courses = array();
-		
-		$tags = Tag::get();
-		foreach ($tags as $tag) {
 
-			$temp = array();
-
-			foreach ($tag->courses()->get() as $course) {
-				$temp = array_add($temp, $course->id, $course->name);
-			}
-
-			$tag_courses = array_add($tag_courses, $tag->short, $temp);
-
-		}
+		$tag_courses['Y'] = Tag::find(1)->courses()->get(array('id', 'name', 'academic_units'));
+		$tag_courses['F'] = Tag::find(2)->courses()->get(array('id', 'name', 'academic_units'));
+		$tag_courses['B'] = Tag::find(3)->courses()->get(array('id', 'name', 'academic_units'));
+		$tag_courses['Fri'] = Tag::find(4)->courses()->get(array('id', 'name', 'academic_units'));
+		$tag_courses['A'] = Tag::find(5)->courses()->get(array('id', 'name', 'academic_units'));
 
 		return view('examenform')->with('tag_courses', $tag_courses);
+	}
+
+	/**
+	 *
+	 * @return [type] [description]
+	 */
+	public function printForm()
+	{
+		return view('printExamen');
 	}
 
 	/**

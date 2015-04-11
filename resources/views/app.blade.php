@@ -31,20 +31,29 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-</head>
+	</head>
 
-<body>
-	<nav class="navbar navbar-static-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				{!! Html::link('/', 'Interaktion & Design', array('class' => 'navbar-brand')) !!}
+	<body>
+		<nav class="navbar navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					{!! Html::link('/', 'Interaktion & Design', array('class' => 'navbar-brand')) !!}
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-right navbar-nav">
+						<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
+						<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
+						<li>{!! Html::link('/loggain', 'Logga in') !!}</li>
+					</ul>
+				</div><!--/.navbar-collapse -->
 			</div>
+<<<<<<< HEAD
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-right navbar-nav">
 					<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
@@ -56,22 +65,25 @@
 			</div><!--/.navbar-collapse -->
 		</div>
 	</nav>
+=======
+		</nav>
+>>>>>>> origin/master
 
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-		<div class="container">
-			@yield('jumbotron')
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+			<div class="container">
+				@yield('jumbotron')
+			</div>
 		</div>
-	</div>
 
-	<div class="container">
-		@yield('content')
+		<div class="container">
+			@yield('content')
 
-	  	<hr>
-		<footer>
-			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub</a></p>
-		</footer>
-	</div>
+			<hr>
+			<footer>
+				<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub <i class="fa fa-github"></i></a></p>
+			</footer>
+		</div>
 
 	<!-- Bootstrap core JavaScript
 	================================================== -->

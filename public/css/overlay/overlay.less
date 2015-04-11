@@ -1,5 +1,5 @@
-@lightBlue: #6D97BF;
-@darkBlue: #21394C;
+// @lightBlue: #6D97BF;
+// @darkBlue: #21394C;
 @bodyBG: rgb(252, 252, 252);
 
 
@@ -8,13 +8,36 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h1{
+	padding: 20px 0 9px;
+	margin-bottom: 6px;
+}
+
+h2{
+	padding: 18px 0 9px;
+	margin-bottom: 6px;
+}
+
+h3{
+	padding: 16px 0 9px;
+	margin-bottom: 6px;
+}
+
+h4{
+	padding: 16px 0 9px;
+	margin-bottom: 6px;
+}
+
+i{
+	margin: 0 6px 0 0;
+}
 
 *:focus{
 	outline: none;
 }
 
 a:hover{
-	color: @darkBlue;
+	// color: @darkBlue;
 }
 
 .navbar{
@@ -22,20 +45,20 @@ a:hover{
 }
 
 .navbar-brand{
-	color: @lightBlue;
+	// color: @lightBlue;
 }
 
 .nav>li>a{
-	color: @lightBlue;
+	// color: @lightBlue;
 }
 
 .nav>li>a:focus, .nav>li>a:hover{
 	background: rgba(0, 0, 0, 0.02);
-	color: @darkBlue;
+	// color: @darkBlue;
 }
 
 .jumbotron{
-	background: @lightBlue;
+	// background: @lightBlue;
 
 	h3{
 		color: #fff;
@@ -80,3 +103,4 @@ a:hover{
 
 @import "coursesOverview.less";
 @import "singleCoursePage.less";
+@import "examenFormPage.less";

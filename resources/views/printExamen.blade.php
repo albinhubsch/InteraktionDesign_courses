@@ -1,18 +1,42 @@
-@extends('app')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
 
-@section('jumbotron')
+	<title>Interaktion & Design - Kurser</title>
 
-<div class ="single-course-title"> 
-	<h2>Examensformulär</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quo ad voluptas, cupiditate eos autem.</p>
-</div>
-@endsection
+	<!-- Load Font -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
+	<!-- Bootstrap core CSS -->
+	{!! Html::style('/css/bootstrap.min.css') !!}
 
-@section('content')
+	{{-- Include font awesome --}}
+	{!! Html::style('/font-awesome/css/font-awesome.min.css') !!}
 
-<div class="row">
-	<div class="col-md-9">
+	<!-- Custom styles for this template -->
+	{!! Html::style('/css/overlay/overlay.css') !!}
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	{{-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> --}}
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<h1>Examensformulär</h1>
+		<p></p>
+
 		<h3 id="Baskurser"><i class="fa fa-graduation-cap"></i> Baskurser</h3>
 		<p>Platsgaranti för programstudenter</p>
 		<h4 id="Teknik-för-interaktion">Teknik för interaktion</h4>
@@ -305,7 +329,7 @@
 				<td class="academic_units">7.5 hp</td>
 				<td></td>
 			</tr>
-			@for ($i = 0; $i < 2; $i++)
+{{-- 			@for ($i = 0; $i < 2; $i++)
 				<tr>
 					<td>
 						<select name="Y-kurs-{!! $i !!}" class="form-control select-Y-kurser">
@@ -316,7 +340,7 @@
 					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
-			@endfor
+			@endfor --}}
 
 			<tr>
 				<td></td>
@@ -352,7 +376,7 @@
 				<td class="academic_units">7.5 hp</td>
 				<td></td>
 			</tr>
-			@for ($i = 0; $i < 1; $i++)
+{{-- 			@for ($i = 0; $i < 1; $i++)
 				<tr>
 					<td>
 						<select name="F-kurs-{!! $i !!}" class="form-control select-F-kurser">
@@ -363,7 +387,7 @@
 					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
-			@endfor
+			@endfor --}}
 			<tr>
 				<td></td>
 				<td></td> 
@@ -381,7 +405,7 @@
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
-			@for ($i = 0; $i < 2; $i++)
+		{{-- 	@for ($i = 0; $i < 2; $i++)
 				<tr>
 					<td>
 						<select name="B-kurs-{!! $i !!}" class="form-control select-B-kurser">
@@ -392,7 +416,7 @@
 					<td class="academic_units">--</td>
 					<td></td>
 				</tr>
-			@endfor
+			@endfor --}}
 			<tr>
 				<td></td>
 				<td></td> 
@@ -410,7 +434,7 @@
 				<th>Högskolepoäng</th>
 				<th>Kommentar</th>
 			</tr>
-			@for ($i = 0; $i < 4; $i++)
+{{-- 			@for ($i = 0; $i < 4; $i++)
 				<tr>
 					<td>
 						<select name="fri-kurs-{!! $i !!}" class="form-control select-Fri-kurser">
@@ -422,6 +446,7 @@
 					<td></td>
 				</tr>
 			@endfor
+			 --}}
 			<tr>
 				<td></td>
 				<td></td> 
@@ -460,46 +485,19 @@
 			}
 		</style>
 
+	  	<hr>
+		<footer>
+			<p>Detta formulär skapades och autogenererades på http://kurser.interaktion.nu.</p>
+			<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub <i class="fa fa-github"></i></a></p>
+		</footer>
 	</div>
 
-	<div class="col-md-3">
-		<div id="right-static-nav" class="hidden-print hidden-xs hidden-sm" data-spy="affix" data-offset-top="280">
-			<ul>
-				<li>
-					<a class="right-static-nav-header" href="#Baskurser">Baskurser</a>
-					<ul class="right-static-nav-inner">
-						<li><a href="#Teknik-för-interaktion">Teknik för interaktion</a></li>
-						<li><a href="#Datavetenskap">Datavetenskap</a></li>
-						<li><a href="#Medieteknik">Medieteknik</a></li>
-						<li><a href="#Matematik-&-Matematisk-statistik">Matematik & Matematisk statistik</a></li>
-						<li><a href="#Industridesign">Industridesign</a></li>
-						<li><a href="#Kultur-&-Medier">Kultur & Medier</a></li>
-						<li><a href="#Psykologi">Psykologi</a></li>
-						<li><a href="#Allmäna-Ingenjörskurser">Allmäna Ingenjörskurser</a></li>
-					</ul>
-				</li>
-				<li>
-					<a class="right-static-nav-header" href="#Valbara-Kurser">Valbara kurser</a>
-					<ul class="right-static-nav-inner">
-						<li><a href="#Teknik-för-interaktion-yrkesförberedande">Teknik för interaktion yrkesförberedande</a></li>
-						<li><a href="#Teknik-för-interaktion-fördjupning">Teknik för interaktion fördjupning</a></li>
-						<li><a href="#Breddningskurser">Breddningskurser</a></li>
-						<li><a href="#Fria-kurser">Fria kurser</a></li>
-						<li><a href="#Examensarbete">Examensarbete</a></li>
-					</ul>
-				</li>
-			</ul>
-			<hr>
-			<div id="controllers">
-				<button class="btn btn-success btn-block"><i class="fa fa-hdd-o"></i> Spara formuläret</button>
-				<a class="btn btn-success btn-block" href="examen/print" target="_blank"><i class="fa fa-print"></i> Skriv ut</a>
-			</div>
-		</div>
-	</div>
-</div>
-{{-- LOAD DATA INTO JAVASCRIPT VARIABLE --}}
-<script>
-	var examen_kurser = {!! json_encode($tag_courses); !!};
-</script>
-
-@endsection
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	{{-- <script src="/js/ie10-viewport-bug-workaround.js"></script> --}}
+	{!! Html::script('/js/base.js') !!}
+</body>

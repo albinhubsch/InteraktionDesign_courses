@@ -94,7 +94,7 @@
 	</div>
 </div>
 <script>
-	var data = {{{ $courses }}}
+	var data = {!! json_encode($courses) !!}
 </script>
 @endsection
 

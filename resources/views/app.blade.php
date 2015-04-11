@@ -49,25 +49,11 @@
 					<ul class="nav navbar-right navbar-nav">
 						<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
 						<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
-						<li>{!! Html::link('/loggain', 'Logga in') !!}</li>
+						<? //if(Auth::check) return Auth::user()->username; ?>
+						<li>{!! Html::link('/login', 'Logga in') !!}</li>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
-<<<<<<< HEAD
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-right navbar-nav">
-					<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
-					<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
-					<li style="text-decoration:line-through;">{!! Html::link('#', 'Ladda ner') !!}</li>
-					<!-- add if / else if logged in or not -->
-					<li>{!! Html::link('/login', 'Logga in') !!}</li>
-				</ul>
-			</div><!--/.navbar-collapse -->
-		</div>
-	</nav>
-=======
-		</nav>
->>>>>>> origin/master
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="jumbotron">

@@ -11,7 +11,7 @@ class AuthController extends Controller {
 	public function login()
 	{
 		// return 'hello';
-		return Socialize::with('github')->redirect();
+		return \Socialize::with('github')->redirect();
 	}
 
 	// public function welcomeBack()

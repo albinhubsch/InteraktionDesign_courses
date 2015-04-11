@@ -49,7 +49,6 @@
 					<ul class="nav navbar-right navbar-nav">
 						<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
 						<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
-						<? //if(Auth::check) return Auth::user()->username; ?>
 						<li>{!! Html::link('/login', 'Logga in') !!}</li>
 					</ul>
 				</div><!--/.navbar-collapse -->

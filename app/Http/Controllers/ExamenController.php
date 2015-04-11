@@ -28,6 +28,15 @@ class ExamenController extends Controller {
 	}
 
 	/**
+	 *
+	 * @return [type] [description]
+	 */
+	public function printForm()
+	{
+		return view('printExamen');
+	}
+
+	/**
 	 * Show the form for creating a new resource.
 	 *
 	 * @return Response

@@ -16,6 +16,7 @@ Route::get('/', 'HomeController@index');
 
 // 
 Route::get('/examen', 'ExamenController@index');
+Route::get('/examen/print', 'ExamenController@printForm');
 
 // Undersidan för listning av alla kurser
 Route::get('/kurser', 'CourseController@index');

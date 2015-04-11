@@ -23,7 +23,8 @@ Route::get('/kurser', 'CourseController@index');
 // Route för specifik kurs
 Route::get('/kurser/{course}', 'CourseController@show');
 
-
+// Route för login
+Route::get('/login', 'AuthController@login');
 
 
 // ======================================================

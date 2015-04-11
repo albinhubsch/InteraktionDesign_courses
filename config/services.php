@@ -34,6 +34,12 @@ return [
 		'secret' => '',
 	],
 
+	'github' => [
+		'client_id' => getenv('GITHUB_ClIENT_ID'),
+		'client_secret' => getenv('GITHUB_CLIENT_SECRET'),
+		'redirect' => 'http://localhost:8080/kurser'
+	]
+
 	// 'facebook' => [
 	// 	'client_id' 	=> 'insert id here',
 	// 	'client_secret' => 'insert secret here',

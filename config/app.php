@@ -146,6 +146,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		'Laravel\Socialite\SocialiteServiceProvider',
+
 	],
 
 	/*
@@ -195,7 +197,7 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Html' 		=> 'Collective\Html\HtmlFacade',
 		'Form' 		=> 'Collective\Html\FormFacade',
-	'Socialize' => 'Laravel\Socialite\Facades\Socialite',
+		'Socialize' => 'Laravel\Socialite\Facades\Socialite',
 	]
 
 ];

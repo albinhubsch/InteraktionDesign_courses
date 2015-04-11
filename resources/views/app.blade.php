@@ -50,7 +50,8 @@
 					<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
 					<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
 					<li style="text-decoration:line-through;">{!! Html::link('#', 'Ladda ner') !!}</li>
-					<li>{!! Html::link('/loggain', 'Logga in') !!}</li>
+					<!-- add if / else if logged in or not -->
+					<li>{!! Html::link('/login', 'Logga in') !!}</li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div>

@@ -92,7 +92,7 @@
 	@endforeach
 	</div>
 	<div class="col-md-3">
-
+		right hand data
 	</div>
 </div>
 <script>

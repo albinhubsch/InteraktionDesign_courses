@@ -57,7 +57,7 @@
 			<div class ="text-review"> 
 				@foreach($course->reviews as $review)
 				<div class="review-content">
-					<span>Anonym</span>
+					<span>{{{ $review->author }}}</span>
 					<br>
 					<p id="review-text">{{{ $review->text }}}</p>
 					<br>
@@ -77,7 +77,7 @@
 	</div>
 
 	<div class="col-md-3">
-
+		right hand data
 	</div>
 
 

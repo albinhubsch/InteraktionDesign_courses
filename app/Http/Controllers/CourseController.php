@@ -3,7 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use Illuminate\Http\Request;
+use Request;
 
 use App\Course;
 
@@ -42,7 +42,8 @@ class CourseController extends Controller {
 	public function store()
 	{
 		//
-		Course::create(Request::all());
+		$input = Request::all();
+		Course::create($input);
 		return $input;
 	}
 
@@ -54,7 +55,7 @@ class CourseController extends Controller {
 	 */
 	public function show($course)
 	{
-		return view('course')->with('course', Course::where('name', '=', $course)->firstOrFail());
+		return view('course')->with('course', Course::where('name', '=', urldecode($course))->firstOrFail());
 	}
 
 	/**

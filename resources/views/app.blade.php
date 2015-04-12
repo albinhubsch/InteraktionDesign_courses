@@ -49,10 +49,10 @@
 					<ul class="nav navbar-right navbar-nav">
 						<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
 						<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
-						<li>{!! Html::link('/login', 'Logga in') !!}</li>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
+		</nav>
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="jumbotron">
@@ -66,7 +66,7 @@
 
 			<hr>
 			<footer>
-				<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Delta i projektet på GitHub <i class="fa fa-github"></i></a></p>
+				<p>&copy; Interaktion & Design - <a href="https://github.com/albinhubsch/InteraktionDesign_courses">Kurskatalog <i class="fa fa-github"></i></a></p>
 			</footer>
 		</div>
 
@@ -78,5 +78,6 @@
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	{{-- <script src="/js/ie10-viewport-bug-workaround.js"></script> --}}
 	{!! Html::script('/js/base.js') !!}
+	@yield('onLoad')
 </body>
 </html>

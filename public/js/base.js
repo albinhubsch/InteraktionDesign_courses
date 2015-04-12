@@ -87,7 +87,7 @@ var ExamenFormModule = {
 	// 
 	loadAvailableCourses: function(){
 		var emptyOption = '<option value="0">--</option>';
-		var append_str = {'Y':emptyOption, 'F':emptyOption, 'B':emptyOption, 'Fri':emptyOption, 'A':emptyOption};
+		var append_str = {'Y':emptyOption, 'F':emptyOption, 'B':emptyOption, 'Fri':emptyOption, 'A':emptyOption, 'Ma':emptyOption};
 
 		$.each(Object.keys(this.courses), function(){
 			var key = this;
@@ -101,6 +101,7 @@ var ExamenFormModule = {
 		$('.select-F-kurser').html(append_str['F']);
 		$('.select-A-kurser').html(append_str['A']);
 		$('.select-Y-kurser').html(append_str['Y']);
+		$('.select-Ma-kurser').html(append_str['Ma']);
 	},
 
 	// 
@@ -112,8 +113,6 @@ var ExamenFormModule = {
 			ExamenFormModule.redrawAvailableOptions();
 			ExamenFormModule.updateAcademicUnits($(this), id);
 			ExamenFormModule.writeLongMem();
-
-			console.log(ExamenFormModule.examForm_selected);
 		});
 	},
 
@@ -145,7 +144,6 @@ var ExamenFormModule = {
 	// 
 	updateAcademicUnits: function(obj, id){
 		// 
-		console.log(id);
 		obj.closest('tr').children('.academic_units').html(ExamenFormModule.indexedCourses[id].academic_units + ' hp');
 		this.summarizeTableAU(obj.closest('table'));
 	},
@@ -163,7 +161,6 @@ var ExamenFormModule = {
 
 	// 
 	writeLongMem: function(){
-		// console.log(ExamenFormModule.examForm_selected);
 		temp = ExamenFormModule.examForm_selected.filter(function(n){ return n != undefined });
 		CookieModule.setCookie('examenform', JSON.stringify(temp), 15778463);
 	},
@@ -186,10 +183,51 @@ var ExamenFormModule = {
 	fillFromMem: function(){
 		$.each(ExamenFormModule.examForm_selected, function(){
 			if (this.id) {
-				
-				console.log(this.pos);
+				$('select[name="'+this.pos+'"] option[value="'+this.id+'"]').attr('selected', 'selected');
+				ExamenFormModule.updateAcademicUnits($('select[name="'+this.pos+'"]'), this.id);
 			}
 		});
+		ExamenFormModule.redrawAvailableOptions();
+	},
+
+	// 
+	emptyExamForm: function(){
+		ExamenFormModule.examForm_selected = new Array();
+		CookieModule.removeCookie('examenform');
+		$('select option').removeAttr('selected').removeAttr('disabled');
+		$('.academic_units').html('--');
+		$('.academic_units_sum').html('--');
+	},
+
+	// 
+	printPage: function(){
+		ExamenFormModule.examForm_selected = ExamenFormModule.readLongMem();
+
+		var strArr = new Array();
+		$.each(ExamenFormModule.examForm_selected, function(){
+			if (this.id) {
+				var pos = (''+this.pos).split('-');
+				var p_data = pos[0];
+				var p_index = pos[2];
+				if (strArr[p_data]) {
+					strArr[p_data][p_index] = '<tr><td>'+this.name+'</td><td></td><td class="academic_units">'+this.academic_units+' hp</td><td></td></tr>';
+				}else{
+					strArr[p_data] = new Array();
+					strArr[p_data][p_index] = '<tr><td>'+this.name+'</td><td></td><td class="academic_units">'+this.academic_units+' hp</td><td></td></tr>';
+				}
+			};
+		});
+
+		// Output to viewer
+		for (var key in strArr) {
+			$('#table-'+key+' tr:last').before(strArr[key]);
+			ExamenFormModule.summarizeTableAU($('#table-'+key));
+		}
+
+		// Open print dialog
+		window.print();
+
+
 	},
 
 }
@@ -276,5 +314,6 @@ var CookieModule = {
 // 
 // INITIATE ALL MODULES
 // 
-SearchModule.init();
-ExamenFormModule.init();
+
+// SearchModule.init();
+// ExamenFormModule.init();

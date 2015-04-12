@@ -38,7 +38,7 @@
 						<nav>
 							<ul class="nav masthead-nav">
 								<li>{!! Html::link('/kurser', 'Kurser') !!}</li>
-								<li>{!! Html::link('#', 'Ladda ner') !!}</li>
+								<li>{!! Html::link('/examen', 'Examensformulär') !!}</li>
 							</ul>
 						</nav>
 					</div>
@@ -46,7 +46,7 @@
 
 				<div class="inner cover">
 					<h1 class="cover-heading">Kurskatalog för Interaktion & Design</h1>
-					<p class="lead">Vi på Interaktion & Design har ett stort urval av kurser att välja bland. Och med många valfria poäng att fylla kan det vara svårt att hitta rätt. Denna onlinekatalog är till för dig att hitta rätt i snårskogen.</p>
+					<p class="lead">Vi på Interaktion & Design har ett stort urval av kurser att välja bland. Och med många valfria poäng att fylla kan det vara svårt att hitta rätt. Denna onlinekatalog samlar information om kurser och hjälper dig göra bra val.</p>
 					<p class="lead">
 						{!! Html::link('/kurser', 'Bläddra bland kurser', array('class' => 'btn btn-lg btn-default')) !!}
 					</p>

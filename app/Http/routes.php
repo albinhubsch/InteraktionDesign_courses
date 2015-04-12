@@ -25,7 +25,7 @@ Route::get('/kurser', 'CourseController@index');
 Route::get('/kurser/{course}', 'CourseController@show');
 
 // Route för login
-Route::get('/login', 'AuthController@login');
+// Route::get('/login', 'AuthController@login');
 
 
 // ======================================================
@@ -34,51 +34,51 @@ Route::get('/login', 'AuthController@login');
 
 
 
-// Dev Sidor för tillägg av kurser
-Route::get('/add', 'CourseController@create');
-Route::post('/add', 'CourseController@store');
+// // Dev Sidor för tillägg av kurser
+// Route::get('/add', 'CourseController@create');
+// Route::post('/add', 'CourseController@store');
 
-// Dev Sidor för tillägg av recensioner
-Route::get('/addReview', 'ReviewController@create');
-Route::post('/addReview', 'ReviewController@store');
+// // Dev Sidor för tillägg av recensioner
+// Route::get('/addReview', 'ReviewController@create');
+// Route::post('/addReview', 'ReviewController@store');
 
-Route::get('/testTag', function(){
-	$course = App\Course::find(1);
-	$arr = '';
-	foreach ($course->tags()->get() as $tag) {
-		$arr = ''.$tag->short.':'.$arr;
-	}
-	return $arr;
-});
+// Route::get('/testTag', function(){
+// 	$course = App\Course::find(1);
+// 	$arr = '';
+// 	foreach ($course->tags()->get() as $tag) {
+// 		$arr = ''.$tag->short.':'.$arr;
+// 	}
+// 	return $arr;
+// });
 
-// 
-Route::get('/addTagConn', function(){
-	$tags = array();
+// // 
+// Route::get('/addTagConn', function(){
+// 	$tags = array();
 
-	foreach (DB::table('tags')->select('short', 'id')->get() as $tag) {
-		$tags = array_add($tags, $tag->id, $tag->short);
-	}
+// 	foreach (DB::table('tags')->select('short', 'id')->get() as $tag) {
+// 		$tags = array_add($tags, $tag->id, $tag->short);
+// 	}
 
-	$courses = array();
+// 	$courses = array();
 
-	foreach (DB::table('courses')->select('name', 'id')->get() as $course) {
-		$courses = array_add($courses, $course->id, $course->name);
-	}
+// 	foreach (DB::table('courses')->select('name', 'id')->get() as $course) {
+// 		$courses = array_add($courses, $course->id, $course->name);
+// 	}
 
-	// return $tags;
-	return view('addTagConn')->with('tags', $tags)->with('courses', $courses);
-});
+// 	// return $tags;
+// 	return view('addTagConn')->with('tags', $tags)->with('courses', $courses);
+// });
 
-Route::post('/addTagConn', function(){
+// Route::post('/addTagConn', function(){
 	
-	$input = Request::all();
+// 	$input = Request::all();
 
-	$course = App\Course::find($input['course_id']);
+// 	$course = App\Course::find($input['course_id']);
 
-	$course->tags()->attach($input['tag_id']);
+// 	$course->tags()->attach($input['tag_id']);
 
-	return 'tillagd';
-});
+// 	return 'tillagd';
+// });
 
 // 
 // Route::controllers([

@@ -23,6 +23,7 @@ class ExamenController extends Controller {
 		$tag_courses['B'] = Tag::find(3)->courses()->get(array('id', 'name', 'academic_units'));
 		$tag_courses['Fri'] = Tag::find(4)->courses()->get(array('id', 'name', 'academic_units'));
 		$tag_courses['A'] = Tag::find(5)->courses()->get(array('id', 'name', 'academic_units'));
+		$tag_courses['Ma'] = Tag::find(6)->courses()->get(array('id', 'name', 'academic_units'));
 
 		return view('examenform')->with('tag_courses', $tag_courses);
 	}

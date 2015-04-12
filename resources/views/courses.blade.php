@@ -72,7 +72,7 @@
 	<div class="course-list col-md-9">
 	@foreach($courses as $course)
 		<div class="course-list-item">
-			<h2>{!! Html::link(urlencode('kurser/'.$course->name), $course->name) !!}</h2>
+			<h2>{!! Html::link('kurser/'.urlencode($course->name), $course->name) !!}</h2>
 			<span>
 				
 				<h3>
